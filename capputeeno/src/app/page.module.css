@@ -1,0 +1,15 @@
+.header {
+  padding: 2rem;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+}
+
+.footer {
+  padding: 2rem;
+}
