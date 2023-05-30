@@ -6,8 +6,6 @@ export default function Home() {
       <main className={styles.main}>
         <h1>Content</h1>
       </main>
-
-      <footer className={styles.footer}>&copy; 2023 T. J. Silva</footer>
     </>
   )
 }

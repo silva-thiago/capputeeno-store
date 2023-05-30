@@ -2,6 +2,8 @@ import './globals.css'
 import { Saira } from 'next/font/google'
 
 import { Header } from '@/components/header'
+import { Footer } from '@/components/footer'
+
 const saira = Saira({ weight: ['400', '700'], subsets: ['latin'] })
 
 export const metadata = {
@@ -19,6 +21,7 @@ export default function RootLayout({
       <body className={saira.className}>
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   )
