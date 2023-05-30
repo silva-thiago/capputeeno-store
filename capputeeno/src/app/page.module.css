@@ -3,3 +3,12 @@
   flex-direction: column;
   padding: 1.25rem 1.5rem;
 }
+
+@media screen and (min-width: 1200px) {
+  .main {
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.25rem 10rem;
+  }
+  
+}

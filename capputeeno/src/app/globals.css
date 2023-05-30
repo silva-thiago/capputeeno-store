@@ -1,18 +1,18 @@
 :root {
-  --background-end-rgb: 255, 255, 255;
-  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 243, 244, 246;
+  --background-start-rgb: 249, 250, 251;
   --border-radius: 0.75rem;
   --font-system-ui: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  --foreground-rgb: 0, 0, 0;
+  --foreground-rgb: 17, 24, 39;
   --logo-color: #5D5D6D;
   --max-width: 1100px;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background-end-rgb: 0, 0, 0;
-    --background-start-rgb: 0, 0, 0;
-    --foreground-rgb: 255, 255, 255;
+    --background-end-rgb: 17, 24, 39;
+    --background-start-rgb: 17, 24, 39;
+    --foreground-rgb: 249, 250, 251;
   }
 }
 
