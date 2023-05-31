@@ -16,8 +16,15 @@ const TagHeader = styled.header`
   flex-direction: column;
   justify-content: center;
   padding: 1rem;
-  justify-content: space-between;
-  padding: 1.25rem 1.5rem;
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  @media (min-width: 992px) {
+    padding: 1rem 10rem;
+  }
 `
 
 const Logotype = styled.a`

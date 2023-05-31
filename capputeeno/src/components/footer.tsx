@@ -6,7 +6,11 @@ interface FooterProps {}
 
 const TagFooter = styled.footer`
   display: flex;
-  padding: 1.25rem 1.5rem;
+  padding: 1rem;
+
+  @media (min-width: 992px) {
+    padding: 1rem 10rem;
+  }
 `
 
 export const Footer = (props : FooterProps) => {

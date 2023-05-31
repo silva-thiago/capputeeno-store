@@ -1,14 +1,14 @@
 .main {
   display: flex;
   flex-direction: column;
-  padding: 1.25rem 1.5rem;
+  padding: 1rem;
 }
 
 @media screen and (min-width: 1200px) {
   .main {
     align-items: center;
-    justify-content: space-between;
-    padding: 1.25rem 10rem;
+    gap: 1rem;
+    padding: 1rem 10rem;
   }
   
 }
