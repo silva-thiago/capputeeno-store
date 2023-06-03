@@ -8,7 +8,7 @@ const TagFooter = styled.footer`
   display: flex;
   padding: 1rem;
 
-  @media (min-width: 992px) {
+  @media (min-width: 1280px) {
     padding: 1rem 10rem;
   }
 `

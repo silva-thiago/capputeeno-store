@@ -1,22 +1,42 @@
 :root {
-  --bg-transparent: transparent;
+  --black: rgb(0, 0, 0);
+  --transparent: transparent;
+  --white: rgb(255, 255, 255);
   --border-radius: 0.5rem;
+  --delete-color: rgb(222, 56, 56);
   --font-system-ui: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  --min-width-sm: 576px;
-  --min-width-md: 768px;
-  --min-width-lg: 992px;
-  --min-width-xl: 1200px;
-  --min-width-xxl: 1400px;
+  
+  --sm: 640px;
+  --md: 768px;
+  --lg: 1024px;
+  --xl: 1280px;
+  --xxl: 1536px;
+
+  --text-xxs: 0.625em;
+  --text-xs: 0.75em;
+  --text-sm: 0.875em;
+  --text-base: 1em;
+  --text-lg: 1.125em;
+  --text-xl: 1.25em;
+  --text-xxl: 1.5em;
+
+  --line-height-xs: 1rem;
+  --line-height-sm: 1.25rem;
+  --line-height-md: 1.5rem;
+  --line-height-lg: 1.75rem;
+  --line-height-xl: 1.75rem;
+  --line-height-xxl: 2rem;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg-primary-color: rgb(17, 24, 39);
-    --bg-secondary-color: rgb(75, 85, 99);
-    --box-shadow-color: rgb(75, 85, 99);
+    --bg-primary-color: rgb(31, 41, 55);
+    --bg-secondary-color: rgb(17, 24, 39);
+    --box-shadow-color: 0 0.25rem 1.25rem rgba(149, 149, 149, 0.1);
     --fg-primary-color: rgb(31, 41, 55);
-    --logo-color: rgb(209, 213, 219);
-    --text-primary-color: rgb(229, 231, 235);
+    --fg-secondary-color: rgb(243, 244, 245);
+    --logo-color: rgb(75, 85, 99);
+    --text-primary-color: rgb(107, 114, 128);
   }
 }
 
@@ -24,8 +44,9 @@
   :root {
     --bg-primary-color: rgb(240, 240, 245);
     --bg-secondary-color: rgb(249, 250, 251);
-    --box-shadow-color: rgb(17, 24, 39);
-    --fg-primary-color: rgb(243, 244, 245);
+    --box-shadow-color: 0 0.25rem 1.25rem rgba(149, 149, 149, 0.1);
+    --fg-primary-color: rgb(243, 245, 246);
+    --fg-secondary-color: rgb(31, 41, 55);
     --logo-color: rgb(93, 93, 109);
     --text-primary-color: rgb(115, 115, 128);
   }
@@ -47,8 +68,10 @@ body {
 }
 
 body {
-  background: var(--bg-primary-color);
-  color: var(--fg-color);
+  background-color: var(--bg-primary-color);
+  color: var(--text-primary-color);
+  font-size: var(--text-sm);
+  line-height: var(--line-height-sm);
 }
 
 a {

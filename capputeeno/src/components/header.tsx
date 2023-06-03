@@ -22,7 +22,7 @@ const TagHeader = styled.header`
     justify-content: space-between;
   }
 
-  @media (min-width: 992px) {
+  @media (min-width: 1280px) {
     padding: 1rem 10rem;
   }
 `

@@ -5,6 +5,13 @@ import styled from "styled-components"
 const Icon = styled.i`
   align-items: center;
   display: flex;
+  font-size: var(--text-xs);
+  line-height: var(--line-height-xs);
+
+  @media (min-width: 640px) {
+    font-size: inherit;
+    line-height: inherit;
+  }
 `
 
 export const MagnifyingGlass = () => {
